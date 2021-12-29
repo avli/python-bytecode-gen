@@ -1,6 +1,6 @@
 import pytest
 
-from calc import gencode
+from python_bytecode_gen.calc import gencode
 
 
 @pytest.mark.parametrize('expected,source', [

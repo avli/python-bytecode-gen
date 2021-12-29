@@ -7,9 +7,9 @@ To be precise, a "simple expression" is:
     NEWLINE : '\n' ;
 
 """
-from calc.compiler import Compiler
-from calc.lexer import Lexer
-from calc.parser import Parser
+from python_bytecode_gen.calc.compiler import Compiler
+from python_bytecode_gen.calc.lexer import Lexer
+from python_bytecode_gen.calc.parser import Parser
 
 
 def gencode(source):

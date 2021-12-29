@@ -1,4 +1,4 @@
-from calc.lexer import PLUS, MINUS, NUMBER, Lexer
+from python_bytecode_gen.calc.lexer import PLUS, MINUS, NUMBER, Lexer
 
 
 class AST:

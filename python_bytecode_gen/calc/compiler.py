@@ -1,8 +1,8 @@
 from opcode import opmap
 from types import CodeType
 
-from calc.lexer import PLUS
-from calc.parser import Number, Visitor, Expr
+from python_bytecode_gen.calc.lexer import PLUS
+from python_bytecode_gen.calc.parser import Number, Visitor, Expr
 
 
 class Compiler(Visitor):
